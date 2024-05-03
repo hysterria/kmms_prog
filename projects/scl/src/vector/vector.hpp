@@ -1,6 +1,6 @@
 #pragma once
 		
-namespace IBusko {
+namespace ABelyaeva {
 	template <typename T> 
 	class Vector {
 		private:
