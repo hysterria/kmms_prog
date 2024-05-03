@@ -1,0 +1,865 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						17,
+						18,
+						20,
+						21,
+						22,
+						23,
+						24,
+						27,
+						28,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lib/googletest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest-Debug-664f225273f2f903a926.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/googletest"
+				},
+				{
+					"build" : "lib/googletest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest.googlemock-Debug-5d4f740a4546c1f41ca3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "lib/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest.googletest-Debug-155b6ef0341826118f02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "scl",
+					"childIndexes" : 
+					[
+						5,
+						14
+					],
+					"jsonFile" : "directory-scl-Debug-b52649d029dc65866cba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "scl"
+				},
+				{
+					"build" : "scl/src",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"jsonFile" : "directory-scl.src-Debug-d825bd4964d2234dfa5a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "scl/src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "scl/src/deque",
+					"jsonFile" : "directory-scl.src.deque-Debug-16a09ab48e7fbc067fe9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/deque"
+				},
+				{
+					"build" : "scl/src/list",
+					"jsonFile" : "directory-scl.src.list-Debug-0e871aef6c8e98827aa9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/list"
+				},
+				{
+					"build" : "scl/src/logger",
+					"jsonFile" : "directory-scl.src.logger-Debug-4c31bcd2bbe1aabfb90c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/logger"
+				},
+				{
+					"build" : "scl/src/long_number",
+					"jsonFile" : "directory-scl.src.long_number-Debug-ae1ab509fc80705b951a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/long_number"
+				},
+				{
+					"build" : "scl/src/stack",
+					"jsonFile" : "directory-scl.src.stack-Debug-4e13b6543ad33859ca76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/stack"
+				},
+				{
+					"build" : "scl/src/static_array",
+					"jsonFile" : "directory-scl.src.static_array-Debug-24488a34afc4c40421e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/static_array"
+				},
+				{
+					"build" : "scl/src/text",
+					"jsonFile" : "directory-scl.src.text-Debug-c6ee2219b2c918f04cfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/text"
+				},
+				{
+					"build" : "scl/src/vector",
+					"jsonFile" : "directory-scl.src.vector-Debug-0a71c595afa034616968.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "scl/src/vector"
+				},
+				{
+					"build" : "scl/test",
+					"childIndexes" : 
+					[
+						15,
+						16
+					],
+					"jsonFile" : "directory-scl.test-Debug-1460beba55a42d28cc6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "scl/test"
+				},
+				{
+					"build" : "scl/test/long_number",
+					"jsonFile" : "directory-scl.test.long_number-Debug-1e2c53322c6c527f5c68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 4,
+					"source" : "scl/test/long_number",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "scl/test/text",
+					"jsonFile" : "directory-scl.test.text-Debug-bf74212b11c77ccf898c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 4,
+					"source" : "scl/test/text",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "bubble_sort",
+					"jsonFile" : "directory-bubble_sort-Debug-52d29547cde1627bc46c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "bubble_sort",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "bubble_sort_mf",
+					"childIndexes" : 
+					[
+						19
+					],
+					"jsonFile" : "directory-bubble_sort_mf-Debug-9171993e7e33f3bd3d19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "bubble_sort_mf",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "bubble_sort_mf/sortings",
+					"jsonFile" : "directory-bubble_sort_mf.sortings-Debug-a7fabad8c34e150a095a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 6,
+					"source" : "bubble_sort_mf/sortings"
+				},
+				{
+					"build" : "refactoring_and_print",
+					"jsonFile" : "directory-refactoring_and_print-Debug-aa18cc6f45d14b58378a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "refactoring_and_print",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "base_theory_p1",
+					"jsonFile" : "directory-base_theory_p1-Debug-ac692e8897f6e560fff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "base_theory_p1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "base_theory_tasks_p1",
+					"jsonFile" : "directory-base_theory_tasks_p1-Debug-1d3339562c789134a19b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "base_theory_tasks_p1",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "obuchaika",
+					"jsonFile" : "directory-obuchaika-Debug-5a7e2b722a6e9e6f540d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "obuchaika",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "unit_test_example",
+					"childIndexes" : 
+					[
+						25,
+						26
+					],
+					"jsonFile" : "directory-unit_test_example-Debug-12d635ccb3fb0b6e33d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "unit_test_example",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "unit_test_example/src",
+					"jsonFile" : "directory-unit_test_example.src-Debug-5dd6737cc01aa089bd9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 24,
+					"projectIndex" : 11,
+					"source" : "unit_test_example/src"
+				},
+				{
+					"build" : "unit_test_example/test",
+					"jsonFile" : "directory-unit_test_example.test-Debug-b8f755e6c930f37ec116.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 24,
+					"projectIndex" : 11,
+					"source" : "unit_test_example/test",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "inheritance_examples",
+					"jsonFile" : "directory-inheritance_examples-Debug-271f84f3e051ca72d926.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "inheritance_examples",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "recursion",
+					"jsonFile" : "directory-recursion-Debug-3f828229c42d916ac26b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "recursion",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "obuchaika_v2",
+					"childIndexes" : 
+					[
+						30
+					],
+					"jsonFile" : "directory-obuchaika_v2-Debug-633c9f295726164c2bd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "obuchaika_v2",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "obuchaika_v2/src",
+					"childIndexes" : 
+					[
+						31,
+						32
+					],
+					"jsonFile" : "directory-obuchaika_v2.src-Debug-1889cbadce7767a7118d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 14,
+					"source" : "obuchaika_v2/src"
+				},
+				{
+					"build" : "obuchaika_v2/src/data",
+					"jsonFile" : "directory-obuchaika_v2.src.data-Debug-98ef3e500162321a7220.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 14,
+					"source" : "obuchaika_v2/src/data"
+				},
+				{
+					"build" : "obuchaika_v2/src/menu_items",
+					"jsonFile" : "directory-obuchaika_v2.src.menu_items-Debug-9523eeead34d7eb3a83e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 14,
+					"source" : "obuchaika_v2/src/menu_items"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kmms_prog_2023"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "scl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						15,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "bubble_sort",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18,
+						19
+					],
+					"name" : "bubble_sort_mf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "refactoring_and_print",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "base_theory_p1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "base_theory_tasks_p1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "obuchaika",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24,
+						25,
+						26
+					],
+					"name" : "unit_test_example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "inheritance_examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "recursion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29,
+						30,
+						31,
+						32
+					],
+					"name" : "obuchaika_v2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 21,
+					"id" : "base_theory_p1::@3afc0875ded44a95c10b",
+					"jsonFile" : "target-base_theory_p1-Debug-759a6ea98d72fad1b575.json",
+					"name" : "base_theory_p1",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "base_theory_tasks_p1::@9068a3080e34da3572a1",
+					"jsonFile" : "target-base_theory_tasks_p1-Debug-efb87b156564d07ee1d4.json",
+					"name" : "base_theory_tasks_p1",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "bubble_sort::@57551e33c6ccc31e8f35",
+					"jsonFile" : "target-bubble_sort-Debug-f0f44a339df2715aea19.json",
+					"name" : "bubble_sort",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "bubble_sort_lib::@0b1e1f006be0ecf840e6",
+					"jsonFile" : "target-bubble_sort_lib-Debug-2a0adffa3d983bad67a8.json",
+					"name" : "bubble_sort_lib",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "bubble_sort_mf::@c0c014323b0759900fc7",
+					"jsonFile" : "target-bubble_sort_mf-Debug-d1a3880d7f4a0b35c64c.json",
+					"name" : "bubble_sort_mf",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@7712283c01f504ef6d93",
+					"jsonFile" : "target-gmock-Debug-1e13d7fedc013af4ea9a.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@7712283c01f504ef6d93",
+					"jsonFile" : "target-gmock_main-Debug-6f6b29cb0780ba4df330.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@7e3677ed2a4dc8c8eb88",
+					"jsonFile" : "target-gtest-Debug-855fc2608074979e22f8.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@7e3677ed2a4dc8c8eb88",
+					"jsonFile" : "target-gtest_main-Debug-d440ec8e4ccca09309a1.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "inheritance_examples::@223477727c0fe5cba34b",
+					"jsonFile" : "target-inheritance_examples-Debug-9eb42dcebfd9dd92d01e.json",
+					"name" : "inheritance_examples",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "long_number_tests::@5f34ecd5e3ae31f0337b",
+					"jsonFile" : "target-long_number_tests-Debug-5cf3b2615bec97f4d764.json",
+					"name" : "long_number_tests",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "obuchaika::@9af8fa397fb0c9f76641",
+					"jsonFile" : "target-obuchaika-Debug-98821bfe14c58f274a60.json",
+					"name" : "obuchaika",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "obuchaika_v2::@ea604fe9e84212ce5623",
+					"jsonFile" : "target-obuchaika_v2-Debug-0a4ba204d04777c7c087.json",
+					"name" : "obuchaika_v2",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "recursion::@d45f1c7653952d748aa8",
+					"jsonFile" : "target-recursion-Debug-0605619e6e49fbe5fe82.json",
+					"name" : "recursion",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "refactoring_and_print::@236d57bdc09e013f2843",
+					"jsonFile" : "target-refactoring_and_print-Debug-320d2b6e779aeb523290.json",
+					"name" : "refactoring_and_print",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "scl_lib::@6810dec3029fd5280d1d",
+					"jsonFile" : "target-scl_lib-Debug-51ba3eed98c0051c8df2.json",
+					"name" : "scl_lib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "test_bubble::@0b86bb3e36e00d093ad9",
+					"jsonFile" : "target-test_bubble-Debug-b77e7f5b8cc12ff5df09.json",
+					"name" : "test_bubble",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "text_tests::@5f78728a54a344eb9ce8",
+					"jsonFile" : "target-text_tests-Debug-ff2d7b73d48f341ae033.json",
+					"name" : "text_tests",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/prog/kmms_prog/kmms_prog/projects/cmake-build-debug",
+		"source" : "C:/prog/kmms_prog/kmms_prog/projects"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

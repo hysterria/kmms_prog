@@ -1,12 +1,13 @@
 #pragma once
-		
+#include <cstddef>
+
 namespace ABelyaeva {
 	template <typename T> 
 	class Vector {
 		private:
 			T* arr;
 			std::size_t capacity = 10;
-			std::size_t size = 0;
+			std::size_t siz = 0;
 		public:
 			Vector() noexcept;
 			Vector(const Vector&) = delete;
