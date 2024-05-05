@@ -6,8 +6,8 @@ namespace ABelyaeva {
 	class Vector {
 		private:
 			T* arr;
-			std::size_t capacity = 10;
-			std::size_t siz = 0;
+			int capacity = 10;
+			int siz = 0;
 		public:
 			Vector() noexcept;
 			Vector(const Vector&) = delete;
@@ -19,6 +19,6 @@ namespace ABelyaeva {
 			bool insert(const int position, const T& value);
 			void print() const noexcept;
 			bool remove_first(const T& value) noexcept;
-			std::size_t size() const noexcept;
+			int size() const noexcept;
 	};
 }
