@@ -1,4 +1,4 @@
-add_executable(list_tests test_list.cpp)
+add_executable(list_tests test_doubly_linked_list.cpp)
 
 target_sources(scl_lib
         PRIVATE

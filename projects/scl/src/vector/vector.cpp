@@ -80,7 +80,7 @@ namespace ABelyaeva {
     }
 
     template <typename T>
-    std::size_t Vector<T>::size() const noexcept {
+    int Vector<T>::size() const noexcept {
         return siz;
     }
 

@@ -77,7 +77,7 @@ namespace ABelyaeva {
     }
 
     template <typename T>
-    std::size_t DoublyLinkedList<T>::size() const noexcept {
+    int DoublyLinkedList<T>::size() const noexcept {
         std::size_t count = 0;
         Node* current = begin;
         while (current != nullptr) {

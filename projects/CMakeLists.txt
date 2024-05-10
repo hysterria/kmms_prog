@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.2...3.27.5)
-
+set (CMAKE_CXX_STANDARD 11)
 project(kmms_prog_2023)
 
 enable_testing()
 add_subdirectory(lib/googletest)
 
+set(SCL_LIB "scl_lib")
 add_subdirectory(scl)
 
 add_subdirectory(bubble_sort)
